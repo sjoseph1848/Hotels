@@ -1,0 +1,23 @@
+#home-info {
+    height: 450px;
+  }
+  
+  #home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../../../assets/imgs/hotel.jpg') no-repeat;
+    min-height: 100%;
+  }
+  
+  #home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+  }
+  
+  #home-info .info-content p {
+    padding-bottom: 30px;
+  }
