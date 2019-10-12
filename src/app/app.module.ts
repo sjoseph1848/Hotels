@@ -12,7 +12,11 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about/about.component';
 import { AboutHeadlineComponent } from './about/about-headline/about-headline.component';
 import { AboutTestimonialsComponent } from './about/about-testimonials/about-testimonials.component';
-
+import { TripDetailsComponent } from './trips/trip-details/trip-details.component';
+import { TripListComponent } from './trips/trip-list/trip-list.component';
+import { TripThumbnailComponent } from './trips/trip-thumbnail/trip-thumbnail.component';
+import {TripListResolver} from '../app/trips/trip-list/trips-list-resolver.service';
+import { TripsService } from './trips/trips.service';
 
 @NgModule({
   declarations: [
@@ -26,6 +30,9 @@ import { AboutTestimonialsComponent } from './about/about-testimonials/about-tes
     AboutComponent,
     AboutHeadlineComponent,
     AboutTestimonialsComponent,
+    TripDetailsComponent,
+    TripListComponent,
+    TripThumbnailComponent,
 
   ],
   imports: [
@@ -33,7 +40,7 @@ import { AboutTestimonialsComponent } from './about/about-testimonials/about-tes
     AppRoutingModule, 
     AngularFontAwesomeModule,
   ],
-  providers: [],
+  providers: [TripsService,TripListResolver],
   bootstrap: [AppComponent]
 })
 export class AppModule {

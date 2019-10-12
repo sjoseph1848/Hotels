@@ -1,0 +1,9 @@
+.well.hoverwell.thumbnail {
+    background-color: #000000;
+    color:white;
+    cursor: pointer;
+}
+
+.thumbnail {
+    min-height: 210px;
+}
