@@ -28,7 +28,7 @@ html,body {
   /* Util Classes */
 
   .text-primary {
-    color:#f7c08a;
+    color:#337ab7;
   }
   .container {
     margin: auto;
@@ -58,7 +58,7 @@ html,body {
   }
   
   .bg-primary {
-    background: #f7c08a;
+    background: #337ab7;
     color: #333;
   }
 
@@ -72,4 +72,9 @@ html,body {
   background: #444;
   color: #fff;
   padding: 20px;
+}
+
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2;
 }
